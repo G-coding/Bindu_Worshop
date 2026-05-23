@@ -43,7 +43,7 @@ config = {
         "expose": True,
         "cors_origins": ["http://localhost:5173"]
     },
-    "skills": ["skills/question-answering", "skills/pdf-processing"],
+    "skills": [],
 }
 
 def handler(messages):

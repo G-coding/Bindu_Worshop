@@ -1,0 +1,47 @@
+2026-05-23 23:06:49.403 | INFO     | bindufy:_generate_agent_id:77 | Generated deterministic agent_id from author+name: 4abf8423-8284-899d-bbc2-c97566e96906
+2026-05-23 23:06:49.421 | INFO     | bindufy:_bindufy_core:440 | Validating handler function: handler
+2026-05-23 23:06:49.421 | INFO     | bindufy:_bindufy_core:443 | Agent ID: 4abf8423-8284-899d-bbc2-c97566e96906
+2026-05-23 23:06:49.422 | INFO     | did_setup:initialize_did_extension:95 | Initializing DID extension for agent: beginner_zero_config_agent
+2026-05-23 23:06:49.432 | INFO     | did_setup:initialize_did_extension:130 | ✅ DID configuration and keys pass integrity check
+2026-05-23 23:06:49.438 | INFO     | did_setup:initialize_did_extension:140 | DID extension initialized successfully: did:bindu:21uad051_at_kamarajengg_edu_in:beginner_zero_config_agent:4abf8423-8284-899d-bbc2-c97566e96906
+2026-05-23 23:06:49.439 | INFO     | bindufy:_bindufy_core:466 | Loading agent skills...
+2026-05-23 23:06:49.440 | ERROR    | loader:load_skills:352 | Failed to load skill skills/question-answering: Skill directory not found: /Users/shelender/Documents/Programming/Workshop/BinduWorkshop/myagent/skills/question-answering
+2026-05-23 23:12:04.515 | INFO     | bindufy:_generate_agent_id:77 | Generated deterministic agent_id from author+name: 4abf8423-8284-899d-bbc2-c97566e96906
+2026-05-23 23:12:04.520 | INFO     | bindufy:_bindufy_core:440 | Validating handler function: handler
+2026-05-23 23:12:04.521 | INFO     | bindufy:_bindufy_core:443 | Agent ID: 4abf8423-8284-899d-bbc2-c97566e96906
+2026-05-23 23:12:04.522 | INFO     | did_setup:initialize_did_extension:95 | Initializing DID extension for agent: beginner_zero_config_agent
+2026-05-23 23:12:04.537 | INFO     | did_setup:initialize_did_extension:130 | ✅ DID configuration and keys pass integrity check
+2026-05-23 23:12:04.539 | INFO     | did_setup:initialize_did_extension:140 | DID extension initialized successfully: did:bindu:21uad051_at_kamarajengg_edu_in:beginner_zero_config_agent:4abf8423-8284-899d-bbc2-c97566e96906
+2026-05-23 23:12:04.540 | INFO     | bindufy:_bindufy_core:466 | Loading agent skills...
+2026-05-23 23:12:04.541 | INFO     | loader:load_skills:355 | Loaded 0 skill(s)
+2026-05-23 23:12:04.542 | INFO     | bindufy:_bindufy_core:494 | DID Extension setup complete: did:bindu:21uad051_at_kamarajengg_edu_in:beginner_zero_config_agent:4abf8423-8284-899d-bbc2-c97566e96906
+2026-05-23 23:12:04.543 | INFO     | bindufy:_bindufy_core:495 | Creating agent manifest...
+2026-05-23 23:12:04.543 | INFO     | manifest:create_manifest:296 | Creating agent manifest: name='beginner_zero_config_agent', version=2026.21.1, kind=agent
+2026-05-23 23:12:04.545 | INFO     | manifest:create_manifest:351 | Agent manifest 'beginner_zero_config_agent' created successfully (id=4abf8423-8284-899d-bbc2-c97566e96906)
+2026-05-23 23:12:04.547 | INFO     | bindufy:_bindufy_core:551 | Agent 'did:bindu:21uad051_at_kamarajengg_edu_in:beginner_zero_config_agent:4abf8423-8284-899d-bbc2-c97566e96906' successfully bindufied!
+2026-05-23 23:12:04.549 | INFO     | bindufy:_bindufy_core:590 | Starting deployment for agent: 4abf8423-8284-899d-bbc2-c97566e96906
+2026-05-23 23:12:08.982 | INFO     | applications:_setup_middleware:672 | CORS middleware enabled for origins: ['http://localhost:5173']
+2026-05-23 23:12:08.984 | INFO     | applications:_setup_middleware:683 | CORS middleware added to position 0 in middleware chain
+2026-05-23 23:12:09.055 | INFO     | applications:_setup_middleware:759 | Metrics middleware enabled for Prometheus monitoring
+2026-05-23 23:12:09.066 | INFO     | server_runner:run_server:72 | Starting uvicorn server at http://localhost:3773...
+2026-05-23 23:12:09.067 | INFO     | server_runner:run_server:77 | Press Ctrl+C to stop the server gracefully
+2026-05-23 23:12:09.453 | INFO     | applications:lifespan:331 | 🔧 Initializing storage...
+2026-05-23 23:12:09.455 | INFO     | factory:create_storage:66 | Creating storage backend: memory
+2026-05-23 23:12:09.455 | INFO     | factory:create_storage:69 | Using in-memory storage (non-persistent)
+2026-05-23 23:12:09.457 | INFO     | applications:lifespan:361 | ✅ Storage initialized: InMemoryStorage
+2026-05-23 23:12:09.458 | INFO     | applications:lifespan:364 | 🔧 Initializing scheduler...
+2026-05-23 23:12:09.461 | INFO     | factory:create_scheduler:68 | Creating scheduler backend: memory
+2026-05-23 23:12:09.462 | INFO     | factory:create_scheduler:71 | Using in-memory scheduler (single-process)
+2026-05-23 23:12:09.462 | INFO     | applications:lifespan:376 | ✅ Scheduler initialized: InMemoryScheduler
+2026-05-23 23:12:11.034 | WARNING  | openinference:setup:439 | Missing OpenInference packages - auto-installation disabled for safety
+2026-05-23 23:12:11.037 | INFO     | sentry:init_sentry:46 | Sentry is disabled
+2026-05-23 23:12:11.038 | INFO     | applications:lifespan:413 | 🔧 Starting TaskManager...
+2026-05-23 23:12:11.068 | INFO     | applications:lifespan:419 | ✅ TaskManager started
+2026-05-23 23:12:46.114 | INFO     | applications:lifespan:421 | 🛑 TaskManager stopped
+2026-05-23 23:12:46.121 | INFO     | applications:lifespan:439 | 🧹 Cleaning up storage...
+2026-05-23 23:12:46.122 | INFO     | factory:close_storage:120 | Storage connection for InMemoryStorage closed gracefully
+2026-05-23 23:12:46.123 | INFO     | applications:lifespan:443 | ✅ Storage cleanup complete
+2026-05-23 23:12:46.127 | INFO     | server_runner:handle_shutdown:33 | 
+🛑 Received SIGINT, initiating graceful shutdown...
+2026-05-23 23:12:46.129 | INFO     | server_runner:handle_shutdown:34 | Cleaning up resources (storage, scheduler, tasks)...
+2026-05-23 23:12:46.131 | INFO     | server_runner:run_server:86 | ✅ Server stopped cleanly
